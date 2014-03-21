@@ -1,7 +1,7 @@
 ﻿# Hangman_WasteOfTime
 
 Clear-Host
-$word = Read-Host "This is a word" | ForEach-Object{$_[0..($_.length - 1)]}
+$word = Read-Host "Enter a word" | ForEach-Object{$_[0..($_.length - 1)]}
 Clear-Host
 
 $output = @()
